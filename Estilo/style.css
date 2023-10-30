@@ -1,0 +1,132 @@
+*{
+    padding: o;
+    margin: o;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/imagenes/fondo-dos.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: Copperplate Gothic;
+}
+
+.cabezera{
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color:rgba(8, 7, 7, 0.2);
+}
+
+h1 a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+
+#contenedor-principal{
+    padding: 5px;
+    width: 90%;
+    border-radius: 10rem 50rem;
+}
+
+header{
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 200px;
+    float: right;
+    padding: 25px 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Copperplate Gothic;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    background: rgb(61, 60, 71);
+    margin: 5px;
+    padding: 5px;
+}
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.contenedor-secunadario{
+    margin-top: 75px;
+    width: 50%;
+    padding: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+svg{
+    width: 80px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+svg:hover{
+    box-shadow: 0 10px 30px rgba(236, 223, 223, 10);
+    width: 100px;
+    height: 120px;
+}
+
+img{
+    width: 80px;
+    height: 100px; 
+    margin: 5px;
+    border-radius: 15px;
+}
+
+img:hover{
+    box-shadow: 0 10px 30px rgba(236, 223, 223, 10);
+    width: 100px;
+    height: 120px;
+}
+
+h2{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.tecnologias-utilizadas{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.trabajo{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.trabajo img{
+    width: 500px;
+    height: 280px;
+}
